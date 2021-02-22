@@ -40,16 +40,15 @@ body {
 }
 
 .frontpage {
-  padding: 100px;
+  padding: 80px;
   display: flex;
   flex: 3;
   flex-direction: column;
   justify-content: space-around;
-  background-color: #ffffff;
 }
 
 .profilepic {
-  max-width: 25%;
+  max-width: 30%;
   height: auto;
 }
 
