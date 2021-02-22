@@ -13,7 +13,7 @@ class Home extends Component {
                     <a href="https://codepen.io/asajulia" target="_blank"><i class="fa fa-codepen"></i></a>
                     <a href="https://github.com/asajulia/" target="_blank"><i class="fa fa-github"></i></a>
                     <a href="https://www.instagram.com/asajulia/" target="_blank"><i class="fa fa-instagram"></i></a>
-                    <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a> 
+                    <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
                 </div>
             </div>
         )
