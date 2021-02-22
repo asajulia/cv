@@ -19,19 +19,20 @@ function App() {
 return (
 <Router>
   <div className="App">
+    <div className="frontpage">
         <Route exact path="/cv/home" component={Home} />
         <Route path="/cv/about" component={About} />
         <Route path="/cv/education" component={Education} />
         <Route path="/cv/skills" component={Skills} />
         <Route path="/cv/contact" component={Contact} />
-
-        <div className="nav">
-            <Link to="/cv/home" className="item">Home</Link>
-            <Link to="/cv/about" className="item">About</Link>
-            <Link to="/cv/education" className="item">Education</Link>
-            <Link to="/cv/skills" className="item">Skills</Link>
-            <Link to="/cv/contact" className="item">Contact</Link>
-        </div>
+    </div>
+    <div className="nav">
+        <Link to="/cv/home" className="item">Home</Link>
+        <Link to="/cv/about" className="item">About</Link>
+        <Link to="/cv/education" className="item">Education</Link>
+        <Link to="/cv/skills" className="item">Skills</Link>
+        <Link to="/cv/contact" className="item">Contact</Link>
+    </div>
   </div>
 </Router>
 )
