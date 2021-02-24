@@ -13,6 +13,7 @@ import About from './contents/About';
 import Education from './contents/Education';
 import Skills from './contents/Skills';
 import Projects from './contents/Projects';
+import Work from './contents/Work';
 
 function App() {
 
