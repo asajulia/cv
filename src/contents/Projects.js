@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Card from '../components/Card';
-class Experience extends Component {
+class Projects extends Component {
     render() {
         return (
             <div className="frontpage">
@@ -14,4 +14,4 @@ class Experience extends Component {
         )
     }
     }
-export default Experience
+export default Projects

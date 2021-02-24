@@ -9,11 +9,11 @@ class Home extends Component {
                 <img src={profilepic} className="profilepic"></img>
                 <ReactTypingEffect className="typingeffect" text={['Hi, my name is Ása']} speed={50} eraseDelay={700}/>
                 <div class="social">
-                    <a href="https://www.linkedin.com/in/asajulia/"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-                    <a href="https://codepen.io/asajulia"><i class="fab fa-codepen" aria-hidden="true"></i></a>
-                    <a href="https://github.com/asajulia/"><i class="fab fa-github" aria-hidden="true"></i></a>
-                    <a href="https://www.instagram.com/asajulia/"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-                    <a href="https://www.facebook.com"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/asajulia/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    <a href="https://codepen.io/asajulia"><i class="fa fa-codepen" aria-hidden="true"></i></a>
+                    <a href="https://github.com/asajulia/"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/asajulia/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                 </div>
             </div>
         )
