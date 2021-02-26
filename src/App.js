@@ -13,7 +13,6 @@ import About from './contents/About';
 import Education from './contents/Education';
 import Skills from './contents/Skills';
 import Projects from './contents/Projects';
-//import Work from './contents/Work';
 
 function App() {
 
@@ -25,14 +24,12 @@ return (
         <Route path="/cv/skills" component={Skills} />
         <Route path="/cv/education" component={Education} />
         <Route path="/cv/projects" component={Projects} />
-        //<Route path="/cv/work" component={Work} />
     <div className="nav">
         <Link to="/cv" className="item">Home</Link>
         <Link to="/cv/about" className="item">About</Link>
         <Link to="/cv/skills" className="item">Skills</Link>
         <Link to="/cv/education" className="item">Education</Link>
         <Link to="/cv/projects" className="item">Projects</Link>
-        //<Link to="/cv/work" className="item">Work</Link>
     </div>
   </div>
 </Router>
